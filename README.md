@@ -94,26 +94,6 @@ Functional verification output from Vivado TCL console confirming correct recept
 
 ---
 
-## Repository Structure
-
-```
-uart-controller-verilog/
-├── src/
-│   ├── uart_baud_gen.v     # Baud rate generator
-│   ├── uart_tx.v           # UART transmitter FSM
-│   └── uart_rx.v           # UART receiver FSM
-├── tb/
-│   └── uart_tb.v           # Loopback testbench
-├── waveforms/
-│   ├── waveform_full_transmission.png
-│   ├── waveform_tx_bit_pattern.png
-│   └── sim_tcl_pass_output.png
-├── LICENSE
-└── README.md
-```
-
----
-
 ## How to Simulate in Vivado
 
 1. Create a new **RTL Project** in Vivado (no sources at creation)
@@ -150,7 +130,7 @@ uart-controller-verilog/
 
 ## Author
 
-**Harshith Pulla**  
+**Harshith-Pulla**  
 [GitHub](https://github.com/Harshith-Pulla)
 
 ---
